@@ -1,0 +1,86 @@
+header {
+    color: #ff9614;
+  font-size: 6em;
+    text-align:center;
+    margin:25px;
+}
+.container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+h4 {
+   color: #999;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align:left;
+  margin:25px;
+}
+h3 {
+  margin: 25px;
+  padding: 0;
+  box-sizing: border-box;
+    font-size: 2em;
+    text-align:left;
+}
+.recipe-rate {
+  color: #ff9614;
+  font-size: 1.5em;
+  text-align:center;
+  display:flex;
+  margin:25px;
+}
+.top-dieta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:25px;
+}
+.calories {
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin:25px;
+}
+.badge {
+  margin: 25px;
+  padding: 0;
+  box-sizing: border-box;
+    display: inline-block;
+    background-color: #ff9614;
+    }
+.quick-notes {
+  margin: 25px;
+  padding: 0;
+  box-sizing: border-box;
+    display:inline-block;
+}
+.btn {
+  border: 0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #fff;
+     }
+   .social-icons {
+  font-size: 24px;       
+  color: #333;          
+  margin-right: 15px;   
+  text-decoration: none;
+  }
+
+
+
+    
+
+
