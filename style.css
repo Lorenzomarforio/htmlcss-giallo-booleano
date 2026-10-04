@@ -4,6 +4,14 @@ header {
     text-align:center;
     margin:25px;
 }
+:root {
+  --page-margin: 25px;
+}
+
+body {
+  margin: 0;
+  padding-inline: var(--page-margin);
+}
 .container{
     display: flex;
     justify-content: space-between; 
@@ -33,31 +41,65 @@ h3 {
   text-align:center;
   display:flex;
   margin:25px;
+
 }
+.recipe-card-video{
+position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  overflow: visible;
+  background-color: var(--tdc8af6750f0dad0d);
+  padding-inline-start: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -moz-box;
+  display: flex;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  -moz-box-pack: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1px var(--tf3fc855af2285f5f);
+  border-radius: inherit;
+  max-width:900px;
+}
+.recipe-video{
+  width: 100%;
+ max-width:900px;
+ aspect-ratio: 16/9;
+ }
+ .recipe-video iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  }
 .top-dieta {
   display: flex;
-  align-items: center;
+  flex-direction:column;
+  align-items: flex-start;
   justify-content: space-between;
-  margin:25px;
+  margin:0px;
+  gap:8px;
 }
 .calories {
+  display:flex;
+  align-items: center;
   color: black;
   font-size: 14px;
-  font-weight: normal;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  margin:25px;
+  width: fit-content;
+  margin: 0px;
 }
 .badge {
-  margin: 25px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
     display: inline-block;
     background-color: #ff9614;
     }
 .quick-notes {
-  margin: 25px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
     display:inline-block;
@@ -72,14 +114,41 @@ h3 {
   text-transform: uppercase;
   background-color: #fff;
      }
-   .social-icons {
-  font-size: 24px;       
-  color: #333;          
-  margin-right: 15px;   
-  text-decoration: none;
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  color: #333;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.social-icons span {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+}
+
+.storia {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 2rem;
   }
-
-
+ footer {
+  background-color: #ff9614;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
 
     
 
